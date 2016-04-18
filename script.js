@@ -1,8 +1,17 @@
 $(document).ready(function() {
 
-  $("#tabs").tabs();
-  $( "#accordion" ).accordion();
+  $(function() {
+    $("#tabs").tabs();
+});
 
-  $( "#slider" ).slider();
+$(function() {
+  $( "#accordion" ).accordion();
+});
+
+$(function() {
+    $( "#accordion2" ).accordion();;
+});
+
+
 
 });
